@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/contact.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div
+          style="
+            display: flex;
+            justify-content: space-around;
+            padding-top: 30px;
+            padding-bottom: 10px;
+            margin-bottom: 100px;
+          "
+        >
+          <div style="font-weight: 700; align-items: center">
+            <h3 style="font-size: 30px; font-weight: 700">BISTRO</h3>
+          </div>
+
+          <div class="nav-list">
+            <ul
+              style="
+                display: flex;
+                gap: 30px;
+                list-style: none;
+                font-size: 22px;
+              "
+            >
+              <li><a href="../project1.html" target="_parent">Home</a></li>
+              <li><a href="./shop.html" target="_parent">Shop</a></li>
+              <li><a href="./about.html" target="_parent">About</a></li>
+              <li><a href="./blog.html" target="_parent">Blog</a></li>
+              <li>
+                <a href="./contact.html" target="_parent">Contact</a>
+              </li>
+              <!-- <li><a href="./page.html" target="_parent">Pages</a></li> -->
+            </ul>
+          </div>
+
+          <p style="margin-left: 200px">
+            <a href=""
+              ><i class="fa fa-user-circle" aria-hidden="true"></i
+              ><span style="color: rgb(58, 168, 246); font-size: 20px"
+                >Login/Register</span
+              ></a
+            >
+          </p>
+          <p style="margin-left: -80px; color: rgb(58, 168, 246)">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </p>
+          <p style="margin-left: -80px; color: rgb(58, 168, 246)">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          </p>
+          <p style="margin-left: -80px; color: rgb(58, 168, 246)">
+            <i class="fa fa-heart" aria-hidden="true"></i>
+          </p>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="sect">
+        <div
+          style="
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+              serif;
+          "
+        >
+          <h1>CONTACT</h1>
+        </div>
+        <div>
+          <p style="width: 500px">
+            We'd love to hear from you! Whether you have a question, feedback,
+            or a project idea-feel free to reach out
+          </p>
+        </div>
+
+        <form action="https://formspree.io/f/mrbyrden" method="POST">
+          <div>
+            <label for="name">Name</label><br />
+            <input
+              type="text"
+              name="name"
+              required
+              placeholder="username..."
+              style="width: 300px; padding: 10px 10px"
+            />
+          </div>
+          <br />
+          <div>
+            <label for="email">Email</label><br />
+            <input
+              type="email"
+              name="email"
+              required
+              placeholder="bistro@example.com"
+              style="width: 300px; padding: 10px 10px"
+            />
+          </div>
+          <br />
+          <div>
+            <label for="message">Subject Or Message Box</label><br />
+            <textarea
+              name="message"
+              style="width: 320px"
+              required
+              placeholder="feedback..."
+              rows="5"
+            ></textarea>
+          </div>
+          <br />
+          <div class="butt">
+            <button type="submit">SUBMIT</button>
+          </div>
+        </form>
+
+        <div>
+          <h5>CONTACT INFORMATION:</h5>
+          <ul>
+            <li>Email: bistro@gmail.com</li>
+            <li>Consumer line: +2349012478415</li>
+            <li>Address: 2, Sikiru Abudu street, Lagos, Nigeria</li>
+          </ul>
+        </div>
+        <div>
+          <p>Follow us for more updates:</p>
+          <a href="http://facebook.com/LI B RA">facebook</a>
+          <a href="http://wa.me/+2349012478415">whatsapp</a>
+        </div>
+        <div>
+          <h4>WORKING HOURS</h4>
+          <ul>
+            <li>Monday-Friday: 9:00 AM - 5:00 PM</li>
+            <li>Saturday: 10:00 AM - 3:00 PM</li>
+            <li>Sunday: Closed</li>
+          </ul>
+        </div>
+        <div>
+          <p>we'll do our best to respond within 24 hours.</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

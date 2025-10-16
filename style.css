@@ -1,0 +1,66 @@
+header {
+  background-color: aliceblue;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+}
+.nav-list a {
+  text-decoration: none;
+}
+.touch ul li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+.get ul li {
+  display: flex;
+  gap: 8px;
+}
+.circle {
+  width: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.font {
+  font-weight: 700;
+}
+.hero {
+  background-image: url("./asset/img/hero.jpg");
+  height: 390px;
+  background-size: fit;
+  color: white;
+  justify-items: center;
+  padding-top: 180px;
+}
+.back {
+  background-image: url("./asset/img/rootandgrains.png");
+  height: 796px;
+  background-size: contain;
+  width: 30%;
+}
+.downtown {
+  background-image: url("./asset/img/down\ town.png");
+  height: 217px;
+  width: 100%;
+  background-size: contain;
+}
+.pinkcar {
+  background-image: url("./asset/img/pink\ car.png");
+  height: 217px;
+  width: 100%;
+  background-size: contain;
+}
+.umbrella {
+  background-image: url("./asset/img/umbrellas.png");
+  height: 217px;
+  width: 100%;
+  background-size: contain;
+}
+footer {
+  /* background-color: ; */
+  /* height: ; */
+  /* padding-left: 90px; */
+  /* padding-right: 40px; */
+  justify-items: center;
+  margin: auto;
+}

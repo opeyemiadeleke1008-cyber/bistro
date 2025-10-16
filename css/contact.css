@@ -1,0 +1,37 @@
+header{
+    background-color: aliceblue;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+.nav-list a{
+    text-decoration: none;
+}
+main{
+    justify-items: center;
+}
+.sect{
+    background-color: whitesmoke;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding: 30px 30px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    color:  rgb(58, 168, 246);
+}
+/* main:hover{
+    transition:1000 ms ease-in-out;
+} */
+ /* .sect:hover{
+    transform: scale(1) translateY(-10px);
+    transition: 500ms ease-in-out;
+ } */
+  .butt:hover{
+    /* background-color: blue; */
+        transform: scale(1.1)
+        /* transition: ease-out; */
+  }
+  .butt{
+    width: 30px;
+    padding: 10px 10px;
+  }

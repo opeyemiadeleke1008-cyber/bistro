@@ -1,0 +1,25 @@
+.about {
+  width: 250px;
+}
+aside {
+  background-color: grey;
+  width: 20%;
+  color: white;
+  /* justify-items: center; */
+  padding-left: 50px;
+  /* padding-top: 20px; */
+  padding: 30px 30px;
+}
+aside:hover {
+  background-color: black;
+}
+main:hover {
+  background-color: whitesmoke;
+}
+main {
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 65%;
+  box-shadow: 0 4px 8px 0;
+  padding-top: 30px;
+}
