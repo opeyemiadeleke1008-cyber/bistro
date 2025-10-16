@@ -25,7 +25,7 @@ header {
   font-weight: 700;
 }
 .hero {
-  background-image: url("./asset/img/hero.jpg");
+  background-image: url("/asset/img/hero.jpg");
   height: 390px;
   background-size: fit;
   color: white;
@@ -33,25 +33,25 @@ header {
   padding-top: 180px;
 }
 .back {
-  background-image: url("./asset/img/rootandgrains.png");
+  background-image: url("/asset/img/rootandgrains.png");
   height: 796px;
   background-size: contain;
   width: 30%;
 }
 .downtown {
-  background-image: url("./asset/img/down\ town.png");
+  background-image: url("/asset/img/down\ town.png");
   height: 217px;
   width: 100%;
   background-size: contain;
 }
 .pinkcar {
-  background-image: url("./asset/img/pink\ car.png");
+  background-image: url("/asset/img/pink\ car.png");
   height: 217px;
   width: 100%;
   background-size: contain;
 }
 .umbrella {
-  background-image: url("./asset/img/umbrellas.png");
+  background-image: url("/asset/img/umbrellas.png");
   height: 217px;
   width: 100%;
   background-size: contain;
