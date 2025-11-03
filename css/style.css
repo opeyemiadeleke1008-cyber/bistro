@@ -60,8 +60,13 @@ header {
   margin-left: 95%;
   position: fixed;
   /* z-index: 1500; */
-  bottom: 20px;
-
+  bottom: 6%;
+  cursor: pointer;
+}
+#bun button:hover{
+  background-color: #a52a2a;
+  border-radius: 3px;
+  border: 3px solid #a52a2a;
 }
 footer {
   /* background-color: ; */
